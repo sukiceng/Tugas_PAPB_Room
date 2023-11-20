@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:layout_centerVertical="true"
+    tools:context=".Interface.AddItemActivity">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editPostTitle"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:lines="1"
+        android:maxLines="1"
+        android:inputType="text"
+        android:hint="Post Title"
+        android:paddingStart="20dp"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editPostDescription"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:lines="1"
+        android:maxLines="1"
+        android:inputType="text"
+        android:hint="Write a caption here !"
+        android:paddingStart="20dp"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editPostDate"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:lines="1"
+        android:maxLines="1"
+        android:inputType="text"
+        android:hint="Post Date"
+        android:paddingStart="20dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/save_button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="20dp"
+        android:layout_alignParentEnd="true"
+        android:text="Save"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/purple"/>
+
+
+
+</RelativeLayout>
